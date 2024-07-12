@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+body {
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-summer-men-s-leather-shoes-sandals-business-casual-leather-simple-atmosphere-image_194923.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px;
+}
+
+.main-wrapper {
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 6px 8px 10px 6px;
+    /* background-color: black; */
+}
+
+@media screen and (max-width:900px) {
+    .main-wrapper {
+        width: 300px;
+    }
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 2.4em;
+}
+
+#user-input {
+    width: 270px;
+    height: 50px;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 8px;
+    box-shadow: 2px 5px 5px 2px;
+    background-color: #f5dcbe;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+button {
+    padding: 0.5rem 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    height: 50px;
+    box-shadow: 2px 5px 5px 2px;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #AAA5A2;
+}
+
+button:active {
+    background-color: #DCA765;
+}
+
+p {
+    font-size: 1.224rem;
+    display: inline-block;
+    font-weight: 700;
+}
+span {
+    font-size: 1.299;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+}
